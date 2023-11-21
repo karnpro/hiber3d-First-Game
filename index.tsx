@@ -97,6 +97,7 @@ const World = () => (
     <Ground />
     <Water y={-1} />
     <Island x={20} y={10} />
+    <Prefab id="beach_ball_01" material="t_sci_fi_tile_03" x={5} y={3} z={7} />
     <Sign
       header="Welcome to Hiber3D HDK!"
       body="This is The Getting Started world. Press O to learn how to build it!"
